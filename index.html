@@ -1,12 +1,12 @@
 <!--Unit 2 Project
 Requirements
-[  ] Two Element Selectors
-[  ] Two ID Selectors
-[  ] Two Class Selectors
-[  ] Three Images
+[ y ] Two Element Selectors
+[ y ] Two ID Selectors
+[ y ] Two Class Selectors
+[  y] Three Images
 
 Select ONE Additional Feature to Add  
-[ no ] Feature 1 - Include Border Radius CSS Property 
+[ y ] Feature 1 - Include Border Radius CSS Property 
 [ no ] Feature 2 - Include a Static Background Image
 [ no ] Feature 3 - Include An Animated Background Color Change
 [ no ] Feature 4 - Embed YouTube Video 
@@ -17,13 +17,47 @@ Select ONE Additional Feature to Add
 <html>
     <head>
         <meta charset="utf-8">
-        <title>Unit 2 Project</title>
-        <style>
-            
+        <title> Lily's Unit 2 Project</title>
+          <style>
+              #favorite{color:#1137cc;}
+              #reason{color:rgb(100, 135, 233)}
+              h4 { font-style: italic; color: #2d2d2d; }
+               img { box-shadow: 0 8px 32px rgba(0,0,0,0.35); }
+               .song { color: #a259e6; font-weight: bold; }
+               .artist { color: #7c3aed; font-weight: bold; }
+               .highlight { background: #f3e8ff; border-radius: 6px; padding: 2px 6px; }
+               .fancy-text { font-style: italic; letter-spacing: 1px; color: #a259e6; text-shadow: 1px 1px 4px #e0d7f7; }
         </style>
     </head>
-    <body>
+    <body style="text-align:center; background: linear-gradient(135deg, #e9d8fd 0%, #c7d2fe 50%, #a5b4fc 100%); min-height: 100vh;">
+        <h1> My <span id="favorite">Favorite</span> Bass Lines to Play </h1>
+    <h4 class="highlight"> By Lily Dunham</h4>
+    <h3 class="fancy-text">  I've been playing the bass guitar for a couple years now and I've played the electric <br> 
+        and acoustic guitar for around 7 years. Anyways, here's my go-to bass lines <span id="reason">and why they're my faves.</span></h3>
+    <img src="IMG_1886.HEIC" alt="Bass Guitar" width="150"> 
+    <h3> Starting off strong is <span class="song">Attention</span> by <span class="artist">Charlie Puth</span>. It's really fun to play and it one that other people like a lot.</h3>
+        <h4> Here is a clip of this bass line that I found on Youtube. </h4>
+        <div style="border:1px dashed #aaa; padding:8px 16px; display:inline-block; margin-bottom:20px; border-radius:16px;">
+            <a href="https://youtube.com/shorts/TSDD8OauLQs?si=wgACCCEFpYyvr_FG" target="_blank">Watch on YouTube</a>
+        </div>
+    <h3> Next up is <span class="song">Teeth</span> by <span class="artist">5 Seconds of Summer</span> and it's pretty simple but it's still kind of fun.</h3>
+        <h4> Here is a clip of this bass line that I found on Youtube. </h4>
+        <div style="border:1px dashed #aaa; padding:8px 16px; display:inline-block; margin-bottom:20px; border-radius:16px;">
+            <a href="https://youtube.com/shorts/Vtssky8kTWA?si=Cmp2h4LBDxixN93N" target="_blank">Watch on YouTube</a>
+        </div>
 
-        
+         <h3>
+            I also love the <span class="song">Kissing Strangers</span> bass line from <span class="artist">DNCE</span> ft. <span class="artist">Nicki Minaj</span><br>
+            because I love her as a feature and I love this song and I love how the bass line goes in with this song.
+        </h3>
+        <h4> Here is a clip of this bass line that I found on Youtube. </h4>
+        <div style="border:1px dashed #aaa; padding:8px 16px; display:inline-block; margin-bottom:20px; border-radius:16px;">
+            <a href="https://youtube.com/shorts/qhZRo7ncXAg?si=zZXjCO27DFU2hiQs" target="_blank">Watch on YouTube</a>
+        </div>
+<br>
+            <img src="b1.jpg" width="200">
+            <img src="b2.jpg" width="200">
+            <img src="b3.jpeg" width="200">
+
     </body>
 </html>
